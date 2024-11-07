@@ -4,7 +4,7 @@ export const fetchProductsByCategory = createAsyncThunk(
   'products/fetchByCategory',
   async (category) => {
     try {
-      const response = await fetch(`https://dummyjson.com/products/category/${category}?limit=600`);
+      const response = await fetch(`https://dummyjson.com/products/category/${category}?limit=200`);
       const data = await response.json();
       return { category, products: data.products };
     } catch {

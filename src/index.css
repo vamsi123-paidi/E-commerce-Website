@@ -1,8 +1,13 @@
 .footer-container {
-  background-color: #333;
+  background-color: #1a1a1a;
   color: #fff;
   padding: 30px 20px;
   text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.footer-container:hover {
+  background-color: #292929;
 }
 
 .footer-content p {
@@ -27,7 +32,7 @@
 }
 
 .category-item a {
-  color: #fff;
+  color: #e0e0e0;
   text-decoration: none;
   transition: color 0.3s ease;
 }
